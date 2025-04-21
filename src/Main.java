@@ -38,7 +38,7 @@ public class Main {
 
         System.out.println("Task 4: ");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = 0;i != reverseFullName.length - (1 + i); i++) {
+        for (int i = 0; i != reverseFullName.length - (1 + i); i++) {
             char symbolBehindI = reverseFullName[i];
             reverseFullName[i] = reverseFullName[reverseFullName.length - (1 + i)];
             reverseFullName[reverseFullName.length - (1 + i)] = symbolBehindI;
